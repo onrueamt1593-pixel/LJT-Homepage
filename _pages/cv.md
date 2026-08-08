@@ -1,64 +1,89 @@
 ---
-layout: archive
-title: "CV"
 permalink: /cv/
+title: "CV"
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+# CV
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Personal Information
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**Name**: Junteng Liu  
+**Email**: jliugi@connect.ust.hk  
+**GitHub**: [Vicent0205](https://github.com/Vicent0205)  
+**Google Scholar**: [Junteng Liu](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate)  
+**X (Twitter)**: [@junteng88716710](https://twitter.com/junteng88716710)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Education
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+### Hong Kong University of Science and Technology (2024-Present)
+- **Degree**: Ph.D. in Computer Science
+- **Advisor**: Professor Junxian He
+- **Group**: HKUST NLP Group
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+### Shanghai Jiao Tong University (2020-2024)
+- **Degree**: B.Eng.
+- **Honors**: Zhiyuan Honor Scholarship
+- **Graduation**: June 2024
+
+## Research Experience
+
+### MINIMAX (February 2025 - Present)
+- Research Intern
+
+### Tencent WXG (June 2024 - September 2024)
+- Research Intern
+- Advisor: Zifei Shan
+
+### Shanghai AI Lab (June 2023 - December 2023)
+- Research Intern
+- Advisor: Prof. Yu Cheng
+
+## Publications
+
+### First-author Publications
+
+1. **SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond**  
+   *Junteng Liu*, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Pengyu Zhao, Junjie Yan, Junxian He  
+   Arxiv, 2025
+
+2. **On the Perception Bottleneck of VLMs for Chart Understanding**  
+   *Junteng Liu*, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He  
+   Arxiv, 2025
+
+3. **On the Universal Truthfulness Hyperplane Inside LLMs**  
+   *Junteng Liu*, Shiqi Chen, Yu Cheng, Junxian He  
+   EMNLP 2024
+
+### Co-authored Publications
+
+4. **In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation**  
+   Shiqi Chen, Miao Xiong, *Junteng Liu*, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He  
+   ICML 2024
+
+5. **C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models**  
+   Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, *Junteng Liu*, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, Junxian He  
+   NeurIPS 2023
+
+6. **Composing Parameter-Efficient Modules with Arithmetic Operations**  
+   Jinghan Zhang, Shiqi Chen, *Junteng Liu*, Junxian He  
+   NeurIPS 2023
+
+## Awards
+
+- Zhiyuan Honor Scholarship at Shanghai Jiao Tong University
+
+## Research Interests
+
+- Natural Language Processing
+- Machine Learning
+- LLM Reasoning and Reinforcement Learning
+- Hallucination in Vision-Language Models
+- LLM truthfulness and Interpretability
+
+## Technical Skills
+
+- **Programming Languages**: Python
+- **Machine Learning**: PyTorch, TensorFlow
+- **NLP/LLMs**: Large Language Models, Transformers
+- **Tools**: Git, Docker
