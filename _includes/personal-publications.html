@@ -1,0 +1,12 @@
+{% assign grouped_publications = site.data.publications | group_by: 'year' | sort: 'name' | reverse %}
+{% for year in grouped_publications %}
+<h2>{{ year.name }}</h2>
+{% for paper in year.items %}
+<article class="archive__item">
+  <h3 class="archive__item-title">{{ paper.title | escape }}</h3>
+  <p>{{ paper.authors | escape | replace: 'Junteng Liu', '<strong>Junteng Liu</strong>' }}<br>
+  <em>{{ paper.venue | escape }}, {{ paper.year }}</em>{% if paper.first_author %} · First author{% endif %}
+  {% if paper.code_name %}<br>Code project: <code>{{ paper.code_name | escape }}</code>{% endif %}</p>
+</article>
+{% endfor %}
+{% endfor %}

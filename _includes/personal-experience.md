@@ -1,0 +1,3 @@
+- **Research Intern — MINIMAX**, started **February 2025**. Last recorded as ongoing; end date not confirmed.
+- **Research Intern — Tencent WXG**, **June–September 2024**. Advised by **Zifei Shan**.
+- **Research Intern — Shanghai AI Lab**, **June–December 2023**. Advised by **Prof. Yu Cheng**.
