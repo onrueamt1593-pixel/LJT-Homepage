@@ -12,6 +12,12 @@ My research focuses on **natural language processing and machine learning**, par
 
 [Publications]({{ '/publications/' | relative_url }}) · [CV]({{ '/cv/' | relative_url }}) · [Email](mailto:jliugi@connect.ust.hk) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate)
 
+## Publications
+
+[Publications page]({{ '/publications/' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate)
+
+{% include personal-publications.html %}
+
 ## Academic background
 
 {% include personal-education.md %}
@@ -19,12 +25,6 @@ My research focuses on **natural language processing and machine learning**, par
 ## Research experience
 
 {% include personal-experience.md %}
-
-## Publications at a glance
-
-My publications include first-author work on **SynLogic** (arXiv, 2025), the **perception bottleneck of VLMs for chart understanding** (arXiv, 2025), and the **universal truthfulness hyperplane inside LLMs** (EMNLP 2024), as well as co-authored papers at **ICML 2024** and **NeurIPS 2023**.
-
-[See all six publications and author lists →]({{ '/publications/' | relative_url }})
 
 ## Skills & research areas
 
