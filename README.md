@@ -2,12 +2,16 @@
 
 Personal academic website based on [Academic Pages](https://github.com/academicpages/academicpages.github.io). The upstream MIT license is retained in `LICENSE`.
 
-## Content
+## Content and page structure
 
-- About, academic background, research experience, and research areas
-- Six publications with author lists, years, and venues
-- CV and scholarship
-- Email, GitHub, Google Scholar, and X contact links
+Only pages already provided by the template are used. Do not add new pages.
+
+- Homepage (`_pages/about.md`): biography, full publications list, education, research experience, research areas, scholarship, and contact details
+- Publications (`_pages/publications.html`): the same full publication list
+- CV (`_pages/cv.md`): academic background, experience, research areas, scholarship, and publications
+- Existing template sitemap and 404 page
+
+Contact navigation points to the homepage's `#contact` section, not a separate page. Research content lives on the homepage and CV. The previously added Research and Contact pages have been removed.
 
 The hosting repository belongs to `onrueamt1593-pixel`; the academic GitHub profile saved in memory is `Vicent0205`. These are intentionally distinct.
 
@@ -15,8 +19,8 @@ The hosting repository belongs to `onrueamt1593-pixel`; the academic GitHub prof
 
 - `_config.yml`: identity, sidebar, social links, hosting URL, and base path
 - `_data/navigation.yml`: navigation
-- `_pages/`: About, Research, Publications, CV, Contact, and Sitemap
-- `_data/publications.yml`: publication list used by the publications page and CV
+- `_data/publications.yml`: publication list shared by the homepage, publications page, and CV
+- `_includes/personal-publications.html`: shared publication rendering
 - `_includes/personal-*.md`: shared education, experience, and research-area content
 - `_data/cv.json`: structured CV; keep in sync with page content
 - `images/junteng-monogram.svg`: initials graphic (not a portrait)
